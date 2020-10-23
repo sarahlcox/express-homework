@@ -2,7 +2,6 @@
 // LOAD DATA
 // We are linking our routes to a series of "data" sources.
 const dbJSON = require("../db/db.json"); 
-// const noteData = require("../db/noteData");
 
 
 
@@ -18,6 +17,8 @@ module.exports = function(app) {
     // Note the code here. Our "server" will respond to requests and let users input a note and save it.
     // req.body is available since we're using the body parsing middleware
     // pushes the user response into the sidebar area displaying the title
+    console.log(req);
+    console.log(req.body);
     dbJSON.push(req.title);
     dbJSON.push(req.text);
     res.json;
