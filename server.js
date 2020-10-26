@@ -1,8 +1,5 @@
-// install dependencies 
+// require dependencies 
 const express = require("express");
-// serves our html file
-const path =require("path");
-// const fs =require("fs");
 
 // sets up the express app
 const app = express();
