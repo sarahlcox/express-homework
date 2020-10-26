@@ -1,7 +1,7 @@
 # Express Homework:Note Taker
   ## Table of Contents
   * [ Description ](#description)
-  * [ Deployed App ](#deployed)
+  * [ Deployed App ](#deployed app)
   * [ Installation ](#installation)
   * [ Contributors ](#contributors)
   
